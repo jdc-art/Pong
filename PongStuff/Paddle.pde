@@ -13,11 +13,11 @@ class paddle {
     }
   }
   
-  void update() {
+  void update() { 
     y += yspd;
     y = constrain(y, h/2, height - h/2);
   }
-  void move(float spd) {
+  void move(float spd) { //x2 speed for double time
     yspd = spd;
     if (scoreright + scoreleft == 10 || scoreright + scoreleft > 10) {//Double Time
       yspd = spd * 2;
