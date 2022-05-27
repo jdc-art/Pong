@@ -3,7 +3,7 @@ ball ball;
 paddle left;
 paddle right;
 
-int scoreleft = 10;
+int scoreleft = 0;
 int scoreright = 0;
 
 void setup() {
