@@ -25,7 +25,7 @@ class ball {
     x = x + xspd;
     y = y + yspd;
     
-    if (scoreright + scoreleft == 10 || scoreright + scoreleft > 10 ) { //Double Time
+    if (scoreright + scoreleft == 10 || scoreright + scoreleft > 10 ) { //Double Time?? It works
       x = x + xspd * 2;
       y = y + yspd * 2;
     }
